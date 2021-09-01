@@ -4,7 +4,7 @@
 import time
 from time import sleep
 import sys
-from binance.websockets import BinanceSocketManager
+from binance.streams import BinanceSocketManager
 from binance.client import Client
 from twisted.internet import reactor
 from colorama import init, Fore, Back, Style
